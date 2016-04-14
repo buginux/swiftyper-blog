@@ -1,0 +1,16 @@
+extends partial/layout
+
+block site_title
+  != __('About') + " · " + config.title
+
+block description
+  - desc = page.desc || page.title + ' - ' + config.author;
+  meta(name="description", content=desc)
+
+block container
+  include mixins/post
+  +about()
+
+block comment
+  include mixins/comment
+  +comment()

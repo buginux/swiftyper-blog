@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    color: @color-font;
+    font-size: @font-size;
+    line-height: @line-height;
+    font-family: @font-default;
+}
+
+ul {
+    &.nav, &.post-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+a {
+    transition: 0.05s;
+    margin: 2px 0;
+    &, &:active {
+        border-color: @color-font;
+        color: @color-font;
+        text-decoration: none;
+    }
+    &.nav-list-link {
+        &.active, &:hover {
+            border-bottom: @link-border2;
+        }
+    }
+    &.post-title-link {
+        &:hover {
+            border-bottom: @link-border2;
+        }
+    }
+}
+
+code {
+    margin: 0 2px;
+    padding: 3px 5px;
+    color: @color-code;
+    border-radius: 2px;
+    white-space: inherit;
+}
+
+iframe, video {
+    max-width: 100%;
+    margin: 1rem auto;
+    display: block;
+}
+
+table {
+    width: 100%;
+    thead {
+        background-color: #ddd;
+        th {
+            padding: 5px;
+        }
+    }
+    tbody {
+        tr:nth-child(2n) {
+            background-color: #eee;
+        }
+        td {
+            padding: 5px;
+        }
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: @font-serif;
+}
+
+.fa {
+    margin: 0 5px;
+}
+
+.icon-douban {
+  background: url("../img/iconfont/iconfont-douban.png");
+  background-size: 100%;
+}
+.icon-jianshu {
+  background: url("../img/iconfont/iconfont-jianshu.png");
+  background-size: 100%;
+}
+.icon-email {
+  background: url("../img/iconfont/iconfont-email.png");
+  background-size: 100%;
+}
+.icon-zhihu {
+  background: url("../img/iconfont/iconfont-zhihu.png");
+  background-size: 100%;
+}
+.icon-github {
+  background: url("../img/iconfont/iconfont-github.png");
+  background-size: 100%;
+}
+.icon-twitter {
+  background: url("../img/iconfont/iconfont-twitter.png");
+  background-size: 100%;
+}
+.icon-facebook {
+  background: url("../img/iconfont/iconfont-facebook.png");
+  background-size: 100%;
+}
+.icon-weibo {
+  background: url("../img/iconfont/iconfont-weibo.png");
+  background-size: 100%;
+}
