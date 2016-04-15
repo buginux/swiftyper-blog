@@ -1,5 +1,5 @@
 ---
-type: "tags"
+title: tags
 date: yyyy-mm-dd hh:mm:ss
-comments: tags
+layout: tags
 ---
