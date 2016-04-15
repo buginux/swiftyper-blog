@@ -1,17 +1,15 @@
 ---
 title: 如何优雅地使用 Playground
-tags:
-  - Playground
-  - Xcode
-id: 59
-categories:
-  - 开发工具
+tags: [Playground, Xcode]
+categories: [iOS]
 date: 2016-02-02 13:09:27
 ---
 
 苹果为推动 Swift 的发展花了很大的力气，Playground 就是其中的一个。Playground 大大降低了 Swift 的学习门槛，它可以实时执行 swift 代码，并将结果显示出来，并且还有各种交互来加深你对 swift 语法的理解。
 
 但是你要是以为这就是 Playground 的全部功能，你就错了。其实 Playground 还有很多其它的高级用法，特别是在 Xcode 7 之后，苹果再一次对 Playground 进行了改进，让它的功能更加强大了。
+
+<!-- more -->
 
 ## Sources 目录
 

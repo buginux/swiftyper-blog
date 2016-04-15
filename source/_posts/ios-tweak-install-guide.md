@@ -1,10 +1,7 @@
 ---
 title: iOS微信抢红包Tweak安装教程
-tags:
-  - 逆向
-id: 53
-categories:
-  - iOS逆向
+tags: [逆向]
+categories: [iOS]
 date: 2016-01-25 18:53:42
 ---
 
@@ -15,6 +12,8 @@ date: 2016-01-25 18:53:42
 但是，很多小伙伴表示不会安装，特此写了这篇iOS tweak 安装教程。
 
 > 说明：本篇文章只是为了说明如何在 iOS 当中安装 tweak，并不会涉及完整的逆向环境的搭建，也不会涉及到 tweak 的开发。如果对这方面有兴趣的童鞋可以参考[iOS应用逆向工程](http://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&amp;qid=1453712502&amp;sr=8-1&amp;keywords=ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)这本书。
+
+<!-- more -->
 
 ## 何谓 tweak
 

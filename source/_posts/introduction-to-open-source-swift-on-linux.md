@@ -1,11 +1,7 @@
 ---
 title: (译)介绍Linux下的开源Swift
-tags:
-  - Swift
-id: 41
-categories:
-  - 开发工具
-  - 翻译
+tags: [Swift, Linux]
+categories: [翻译]
 date: 2015-12-10 21:14:15
 ---
 
@@ -14,6 +10,8 @@ date: 2015-12-10 21:14:15
 这份大礼里面甚至又_包含_了另一份礼物：苹果宣布了新的项目以及工具使得 Swift 成为 Linux 开发的一个相当具有实践性的选择。这也产生了很多令人兴奋的可能性，比如说从强大的 Linux 服务器到 5 美元的一台[树莓派Zeros](https://www.raspberrypi.org/blog/raspberry-pi-zero/)，或者其它大量的托管了 Linux 的环境都可以运行 Swift 了。
 
 在这个教程中，我们将会在 Mac 中创建一个 Linux 环境，安装 Swift，并且在这个 Linux 当中编译和运行一些基本的 Swift 示例程序。之后可以感觉一下苹果提供的新工具，然后我们会透过时间的水晶球来预测 Swift 开发未来的走向。
+
+<!-- more -->
 
 此教程不要求读者预先了解任何关于 Linux 的知识，甚至不需要读者安装过 Linux —— 但是如果你已经有一个可以运行的 Ubuntu 系统，那就再好不过了！你所需要的就是运行了最新的 EL Capitan 系统的 Mac 电脑，以及对开源 Swift 兴趣就够了。那就让我们开始吧！
 
