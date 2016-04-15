@@ -35,6 +35,7 @@ social:
   weibo: http://weibo.com/swiftyper
   # douban: https://www.douban.com/people/142374636
   jianshu: http://www.jianshu.com/users/3b40e55ec6d5/latest_articles
+  rss: /atom.xml
   # twitter:
   # facebook:
   # zhihu: https://www.zhihu.com/people/ahonn
