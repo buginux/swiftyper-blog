@@ -3,7 +3,9 @@ title: iOS微信抢红包Tweak安装教程
 tags: [逆向]
 categories: [iOS]
 date: 2016-01-25 18:53:42
+update: 2016-04-19
 ---
+<!-- 下面开始正文 -->
 
 最近在学习 iOS 逆向开发的时候，为了练手，开发了一个 iOS 版的微信抢红包 tweak，并且已经发布到了 Github 上面。
 
@@ -79,9 +81,11 @@ Theos 是一个越狱开发工具包，它可以生成 iOS 越狱APP以及tweak�
 
 打开命令行，进行如下操作：
 
-```
+```bash
 export THEOS=/opt/theos
-git clone https://github.com/DHowett/theos.git $THEOS
+# 如果之前已经安装过 theos，请先删除，然后下载最新版
+rm -rf $THEOS
+sudo git clone --recursive https://github.com/theos/theos.git $THEOS
 ```
 
 #### 配置ldid
@@ -104,11 +108,13 @@ sudo chmod 777 /opt/theos/bin/ldid
 sudo /opt/theos/bin/bootstrap.sh substrate
 ```
 
-在这里会出现一个问题，提示说无法自动生成一个有效的 libsubstrate.dylib 文件，我们需要进行手动操作。我们要做的就是从 iOS 上已经安装的 Cydia Substrate上复制这个文件下来。
+> 注：最新版的 theos 里面已经没有这个脚本了，可以跳过执行脚本这一步
+
+接下来要做的就是从 iOS 上已经安装的 Cydia Substrate 上复制 cydiaSubstrate 文件到 theos 上。
 
 要想在 Mac 上访问 iOS 设备的文件目录，新手可以直接使用 [iFunBox](http://www.i-funbox.com/en_download.html)，或者如果你觉得不屑使用图形化工具，也可以直接使用 `scp` 命令来进行拷贝。
 
-需要拷贝的文件位于 iOS 上的 "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate"，将其拷贝到 OSX 上，然后重命名为 libsubstrate.dylib 后放到 "/opt/theos/libsubstrate.dylib" 中，将无效的文件替换掉就可以了。
+需要拷贝的文件位于 iOS 上的 "/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate"，将其拷贝到 OSX 上，然后重命名为 libsubstrate.dylib 后放到 "/opt/theos/libsubstrate.dylib" 中。
 
 #### 配置 dpkg-deb
 
@@ -164,3 +170,9 @@ make package install
 当然，我也是新手，刚开始学习逆向，可能有些地方理解不准确或有错误，欢迎批评指证。
 
 再多啰嗦一句，这里讲的都是很浅很浅的东西，可以说跟逆向只能搭上一丢丢的边，如果你对逆向特别有兴趣的话，强烈推荐去看下这本书[iOS应用逆向工程](http://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&amp;qid=1453712502&amp;sr=8-1&amp;keywords=ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)。
+
+## 更新
+
+### 2014-04-19
+
+* 更新最新版 theos 安装方法
