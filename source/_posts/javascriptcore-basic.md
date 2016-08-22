@@ -11,6 +11,8 @@ tags: [Hybrid, JavscriptCore]
 
 而从 iOS 7 开始，苹果把 JavascriptCore 引进到了 iOS 开发当中，这个框架可以让我们脱离 UIWebView 同时用更方便同时更强大的方法来与 Javascript 进行交互。
 
+<!-- more -->
+
 ## JavaScriptCore 总览
 
 在学习 JavaScriptCore 的使用之前，需要先了解 JavaScriptCore 当中的重要类型以及协议，包括 `JSValue`、`JSContext`、`JSVirtualMachine`、`JSManagedValue` 以及 `JSExport`。
@@ -39,7 +41,7 @@ Objective-C 或者 Swift 的对象都是使用引用计数，而 Javascript 则�
 
 ## Objective-C 与 Javascript 之间的交互
 
-从 Objective-C 调用 Javascript 有一种方法，而使用 JavaScript 调用原生则有两种方法，下面分别介绍。
+从 Objective-C 调用 Javascript 有一种方法，而使用 JavaScript 调用原生则有两种方法，下面分别进行介绍。
 
 ### 原生调用 Javascript
 
@@ -166,7 +168,7 @@ JavaScriptCore 允许我们使用一个 Objective-C 闭包来对 JavaScript 中�
 
 还有在 iOS 8 后推出来的 WKWebView 没有办法直接获取它的 JSContext，它使用了另一套方面来与 JavaScript 进行交互。
 
-而这些都是在开发中都会碰到的实际问题，所以在之后的文章中再进行详细介绍（又开一个坑）。
+而这些都是在开发中都会碰到的实际问题，所以这些都会在之后的文章中进行详细介绍（又开一个坑）。
 
 ## 参考资料
 
