@@ -132,15 +132,9 @@ location /download {
 > [文档](https://github.com/aperezdc/ngx-fancyindex#directives)上面说明了有两个字段 `fancyindex_default_sort` 和 `fancyindex_name_length` 可以分别用来指定文件排序和文件名的最大长度，但是我试过之后都不起作用，可能是由于 nginx-extras 里面的 FancyIndex 版本比较低的缘故。
 
 下图是配置完后的最终效果：
-![Final Touch](http://7xn482.com1.z0.glb.clouddn.com/nginx-autoindex-configuration-pic-1.png)
+![Final Touch](http://7xqonv.com1.z0.glb.clouddn.com/nginx-autoindex-configuration-pic-1.png)
 
 ## 参考资料
 * [Nginx配置索引（目录浏览），美化索引页面，配置目录密码保护](https://www.zhukun.net/archives/7343)
 * [使用FancyIndex插件美化nginx文件目录列表](http://www.tennfy.com/2489.html)
-
-
-
-
-
-
 
