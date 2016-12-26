@@ -231,6 +231,11 @@ $ /path/to/optool install -c load -p "@executable_path/WeChatRedEnvelop.dylib" -
 
 如果有哪位好心的小伙伴可以贡献一个企业证书的话，我就可以利用这个企业证书打个包，然后直接进行应用分发，这也许就是最方便快捷的方法了。
 
+## 参考文章
+
+* [移动App入侵与逆向破解技术－iOS篇5](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577384&idx=1&sn=b44a9c9651bf09c5bea7e0337031c53c&scene=0#wechat_redirect)
+* [DingTalkNoJailTweak](https://github.com/yohunl/DingTalkNoJailTweak)
+
 ## 赞赏
 
 如果本篇文章对你有帮助，可以进行小额赞助，鼓励作者写出更好的文章。
