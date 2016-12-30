@@ -15,7 +15,7 @@ update: 2016-04-19
 
 但是，很多小伙伴表示不会安装，特此写了这篇iOS tweak 安装教程。
 
-> 说明：本篇文章只是为了说明如何在 iOS 当中安装 tweak，并不会涉及完整的逆向环境的搭建，也不会涉及到 tweak 的开发。如果对这方面有兴趣的童鞋可以参考[iOS应用逆向工程](http://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&amp;qid=1453712502&amp;sr=8-1&amp;keywords=ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)这本书。
+> 说明：本篇文章只是为了说明如何在 iOS 当中安装 tweak，并不会涉及完整的逆向环境的搭建，也不会涉及到 tweak 的开发。如果对这方面有兴趣的童鞋可以参考[iOS应用逆向工程](https://www.amazon.cn/gp/product/B00VFDVY7E/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00VFDVY7E&linkCode=as2&tag=buginux-23)这本书。
 
 <!-- more -->
 
@@ -173,7 +173,7 @@ make package install
 
 当然，我也是新手，刚开始学习逆向，可能有些地方理解不准确或有错误，欢迎批评指证。
 
-再多啰嗦一句，这里讲的都是很浅很浅的东西，可以说跟逆向只能搭上一丢丢的边，如果你对逆向特别有兴趣的话，强烈推荐去看下这本书[iOS应用逆向工程](http://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&amp;qid=1453712502&amp;sr=8-1&amp;keywords=ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)。
+再多啰嗦一句，这里讲的都是很浅很浅的东西，可以说跟逆向只能搭上一丢丢的边，如果你对逆向特别有兴趣的话，强烈推荐去看下这本书[iOS应用逆向工程](https://www.amazon.cn/gp/product/B00VFDVY7E/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00VFDVY7E&linkCode=as2&tag=buginux-23)。
 
 ## 更新
 
