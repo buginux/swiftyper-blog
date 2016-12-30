@@ -154,5 +154,5 @@ $ class-dump -S -s -H WeChat.decrypted -o Headers/
 
 ## 参考文献
 
-* [iOS 应用逆向工程](https://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&qid=1462178712&sr=8-1&keywords=ios+%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)
+* [iOS 应用逆向工程](https://www.amazon.cn/gp/product/B00VFDVY7E/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00VFDVY7E&linkCode=as2&tag=buginux-23)
 	
