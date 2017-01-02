@@ -7,13 +7,15 @@ update: 2016-04-19
 ---
 <!-- 下面开始正文 -->
 
+> 2016-12-27 更新：本 Tweak 已经上传到 Bigboss 源，现在只需要在 Cydia 搜索 WeChatRedEnvelop 就可以直接下载安装了。不再需要从源码进行安装。
+
 最近在学习 iOS 逆向开发的时候，为了练手，开发了一个 iOS 版的微信抢红包 tweak，并且已经发布到了 Github 上面。
 
 [微信抢红包 Tweak 的 Github 地址](https://github.com/buginux/WeChatRedEnvelop.git)
 
 但是，很多小伙伴表示不会安装，特此写了这篇iOS tweak 安装教程。
 
-> 说明：本篇文章只是为了说明如何在 iOS 当中安装 tweak，并不会涉及完整的逆向环境的搭建，也不会涉及到 tweak 的开发。如果对这方面有兴趣的童鞋可以参考[iOS应用逆向工程](http://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&amp;qid=1453712502&amp;sr=8-1&amp;keywords=ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)这本书。
+> 说明：本篇文章只是为了说明如何在 iOS 当中安装 tweak，并不会涉及完整的逆向环境的搭建，也不会涉及到 tweak 的开发。如果对这方面有兴趣的童鞋可以参考[iOS应用逆向工程](https://www.amazon.cn/gp/product/B00VFDVY7E/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00VFDVY7E&linkCode=as2&tag=buginux-23)这本书。
 
 <!-- more -->
 
@@ -134,7 +136,9 @@ sudo chmod 777 /opt/theos/bin/dpkg-deb
 
 根据上面的内容，我们大概知道了，如果要安装一个别人的 tweak，最简单的方法就是直接到 Cydia 上面进行下载并自动安装，但是前提就是你想要安装的这个 tweak 的作者已经将这个 tweak 提交到 cydia 源当中了。
 
-那你可能会问，那我为什么不直接提交到 Cydia 呢，多方便，多简单，反而还要绕这么一大圈，然后特地又写一篇博客来说明怎么从源码进行安装，是不是太久没装逼憋坏了？我的回答是：因为我还不会提交，哈哈哈。当然那只是其中一部分原因，主要还是因为我做这个插件原来也是出于练手学习的目的，后来有很多小伙伴都跟我要，我才放到 Github 上的。而且，这种作弊式的插件有点破坏游戏平衡了，原本抢红包也都是图个欢乐，如果作弊了就破坏了这种气氛（道貌岸然状）。
+~~那你可能会问，那我为什么不直接提交到 Cydia 呢，多方便，多简单，反而还要绕这么一大圈，然后特地又写一篇博客来说明怎么从源码进行安装，是不是太久没装逼憋坏了？我的回答是：因为我还不会提交，哈哈哈。当然那只是其中一部分原因，主要还是因为我做这个插件原来也是出于练手学习的目的，后来有很多小伙伴都跟我要，我才放到 Github 上的。而且，这种作弊式的插件有点破坏游戏平衡了，原本抢红包也都是图个欢乐，如果作弊了就破坏了这种气氛（道貌岸然状）。~~
+
+本 tweak 已经提交到 Cydia 中的 Bigboss 源，现在只需要在 Cydia 搜索 WeChatRedDevelop 即可下载安装了。
 
 所以，经过我“苦口婆心”的劝说，你还是想安装的话，[就到我的Github去下载吧](https://github.com/buginux/WeChatRedEnvelop.git)（如果觉得好用，就点个星鼓励一下吧）。
 
@@ -169,10 +173,14 @@ make package install
 
 当然，我也是新手，刚开始学习逆向，可能有些地方理解不准确或有错误，欢迎批评指证。
 
-再多啰嗦一句，这里讲的都是很浅很浅的东西，可以说跟逆向只能搭上一丢丢的边，如果你对逆向特别有兴趣的话，强烈推荐去看下这本书[iOS应用逆向工程](http://www.amazon.cn/iOS%E5%BA%94%E7%94%A8%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-%E6%B2%99%E6%A2%93%E7%A4%BE/dp/B00VFDVY7E/ref=sr_1_1?ie=UTF8&amp;qid=1453712502&amp;sr=8-1&amp;keywords=ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)。
+再多啰嗦一句，这里讲的都是很浅很浅的东西，可以说跟逆向只能搭上一丢丢的边，如果你对逆向特别有兴趣的话，强烈推荐去看下这本书[iOS应用逆向工程](https://www.amazon.cn/gp/product/B00VFDVY7E/ref=as_li_tf_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B00VFDVY7E&linkCode=as2&tag=buginux-23)。
 
 ## 更新
 
-### 2014-04-19
+### 2016-04-19
 
 * 更新最新版 theos 安装方法
+
+### 2016-12-27
+
+* Tweak 提交到 Cydia 市场
