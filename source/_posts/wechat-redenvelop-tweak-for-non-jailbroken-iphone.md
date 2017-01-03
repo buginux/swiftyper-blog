@@ -142,6 +142,8 @@ WeChatRedEnvelop.dylib (architecture arm64):
 
 可以看到除了 substrate 库，其它依赖的都是系统自带的库。我们将 libsubstrate.dylib 拷出，使用 `install_name_tool` 命令修改动态库的路径，指向 app 二进制文件的同级目录。
 
+> 如果你的系统中不是 /usr/lib/libsubstrate.dylib 而是 /Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate 的话，解决方法可以参考 [Github 上的 issue](https://github.com/buginux/WeChatRedEnvelop/issues/35)。
+
 ```bash
 $ scp root@<your.device.ip>:/usr/lib/libsubstrate.dylib ~/Desktop
 $ install_name_tool -change /usr/lib/libsubstrate.dylib @loader_path/libsubstrate.dylib WeChatRedEnvelop.dylib
