@@ -125,9 +125,10 @@ RunLoop 一旦启动后，它就会开始处理各种等待事件，并向其观
 
 作为开发者，虽然平常跟 RunLoop 直接进行接触的机会不是很多，但是理解它对我们了解 iOS 应用的运行机制也会有很大的帮助。
 
-当然，本篇小结只总结了一些比较基础的知识，旨在对 RunLoop 机制进行一下梳理，让自己有更清晰的认识。关于更加详细及深入的内容，可以参考下面的参考资料。
+当然，本篇小结只总结了一些比较基础的知识，旨在对 RunLoop 机制进行一下梳理，让自己对其有更清晰的认识。关于更加详细及深入的内容，可以参考下面的参考资料。
 
 ## 参考资料
 
 * [深入理解RunLoop](http://blog.ibireme.com/2015/05/18/runloop/)
-* [Friday Q&A 2010-01-01: NSRunLoop Internals](https://www.mikeash.com/pyblog/friday-qa-2010-01-01-nsrunloop-internals.html)* [Run Loops 官方文档](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW23)
+* [Friday Q&A 2010-01-01: NSRunLoop Internals](https://www.mikeash.com/pyblog/friday-qa-2010-01-01-nsrunloop-internals.html)
+* [Run Loops 官方文档](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW23)
