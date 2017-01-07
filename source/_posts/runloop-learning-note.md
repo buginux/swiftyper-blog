@@ -52,19 +52,6 @@ RunLoop 是一种事件驱动（Event Driven）模型，这种模型并非是 iO
 
 所以线程在刚创建时是没有 RunLoop 的，并且如果我们不主动获取，它就一直不会有。除了主线程，其它的线程我们都只能在其内部获取 RunLoop。
 
-## 什么时候使用 RunLoop
-
-正如前面所讲的，一个 iOS 应用在启动时就会自动为主线程创建一个 RunLoop，因此我们大多数情况下都是不需要手动去创建 RunLoop。
-
-根据官方文档，我们只有在下面提到的这些情况下才会去为子线程启动一个 RunLoop：
-
-* 使用 port 或者自定义输入源与其它线程进行交流时
-* 要在线程上使用计时器时
-* 要使用 `performSelector...` 类的方法时
-* 使用线程执行周期性的任务时
-
-当我们为子线程启动 RunLoop 时，需要规划好在什么情况下退出这个线程，而非让它永远地运行下去。手动停止线程并做好清理工作永远比直接强制关闭线程来得好。
-
 ## RunLoop 中的事件
 
 从刚刚开始我们就一直在说 RunLoop 可以让 iOS 应用启动后不退出，而处于接受事件的状态。那么这里所谓的事件到底是什么呢。
@@ -121,9 +108,26 @@ RunLoop 一旦启动后，它就会开始处理各种等待事件，并向其观
 
 实际上，RunLoop 内部就是一个 do-while 循环。当我们调用 CFRunLoopRun() 时，线程就会一直停留在这个循环里；直到超时或者被手动停止，该函数才会返回。
 
+## 什么时候使用 RunLoop
+
+正如前面所讲的，一个 iOS 应用在启动时就会自动为主线程创建一个 RunLoop，因此我们大多数情况下都是不需要手动去创建 RunLoop。
+
+根据官方文档，我们只有在下面提到的这些情况下才会去为子线程启动一个 RunLoop：
+
+* 使用 port 或者自定义输入源与其它线程进行交流时
+* 要在线程上使用计时器时
+* 要使用 `performSelector...` 类的方法时
+* 使用线程执行周期性的任务时
+
+当我们为子线程启动 RunLoop 时，需要规划好在什么情况下退出这个线程，而非让它永远地运行下去。手动停止线程并做好清理工作永远比直接强制关闭线程来得好。
+
 ## 小结
+
+作为开发者，虽然平常跟 RunLoop 直接进行接触的机会不是很多，但是理解它对我们了解 iOS 应用的运行机制也会有很大的帮助。
+
+当然，本篇小结只总结了一些比较基础的知识，旨在对 RunLoop 机制进行一下梳理，让自己有更清晰的认识。关于更加详细及深入的内容，可以参考下面的参考资料。
 
 ## 参考资料
 
 * [深入理解RunLoop](http://blog.ibireme.com/2015/05/18/runloop/)
-* [Friday Q&A 2010-01-01: NSRunLoop Internals](https://www.mikeash.com/pyblog/friday-qa-2010-01-01-nsrunloop-internals.html)* [官方文档 Run Loops](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW23)
+* [Friday Q&A 2010-01-01: NSRunLoop Internals](https://www.mikeash.com/pyblog/friday-qa-2010-01-01-nsrunloop-internals.html)* [Run Loops 官方文档](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW23)
