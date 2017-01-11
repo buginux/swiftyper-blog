@@ -197,6 +197,8 @@ $ cp libsubstrate.dylib WeChatRedEnvelop.dylib wechat/Payload/WeChat.app
 $ /path/to/optool install -c load -p "@executable_path/WeChatRedEnvelop.dylib" -t wechat/Payload/WeChat.app/WeChat
 ``` 
 
+> 在开始打包之前，请先将 WeChat.app 里面的 Watch 目录删除，这个目录是跟 Watch 有关的，如果不删除的话，会导致后继的安装步骤出问题。出现 `A WatchKit app within this app is not a valid bundle` 的错误。
+
 ## 打包并重签名
 
 打包 ipa 与重签名可以直接使用图形化工具 [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer.git) 来完成。
