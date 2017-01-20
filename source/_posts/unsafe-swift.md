@@ -286,6 +286,7 @@ do {
     print(boolPointer.pointee)  // See Rule #1, don't return the pointer
   }
 }
+```
 
 **绝对不要**让一个内存同时绑定两个不同的类型。如果你需要临时这么做，可以使用 `withMemoryRebound(to:capacity:)` 来对内存进行重新绑定。并且，这条规则也表明了不要将一个基本类型(如 Int)重新绑定到一个自定义类型(如 class)上。不要做这种傻事。
 
