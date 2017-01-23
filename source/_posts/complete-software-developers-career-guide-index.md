@@ -1,7 +1,7 @@
 ---
 title: 《软件开发者成长完全攻略》连载公告
 date: 2017-01-21 21:51:58
-tags: [软件开发者成长终极攻略, Translate]
+tags: [软件开发者成长完全攻略, Translate]
 ---
 
 从今天开始，此博客会持续更新翻译 "The Complete Software Developer's Career Guide" 系列博文，这个连载博文是[《软技能：代码之外的生存指南》](https://www.amazon.cn/gp/product/B01IB086H4/ref=od_aui_detailpages00?ie=UTF8&psc=1)的作者 John Z.Sonmez 正在完成的一本新书。他每周更新一章，并发布在他的博客 [SimpleProgrammer](https://simpleprogrammer.com/) 上，目前已经完成二十多章。
@@ -22,4 +22,10 @@ tags: [软件开发者成长终极攻略, Translate]
 
 ## 索引
 
-待更新
+[第0章《软件开发者成长完全攻略》开篇](http://www.swiftyper.com/2017/01/23/complete-software-developers-career-guide-introduction/)
+
+## 赞赏
+
+如果你觉得这本书有对你提供了任何意义上的帮助，就请作者喝杯 koi 吧。
+
+![WeChat Pay](http://7xqonv.com1.z0.glb.clouddn.com/wechatpaying.png)
