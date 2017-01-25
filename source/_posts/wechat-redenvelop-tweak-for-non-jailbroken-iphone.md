@@ -180,8 +180,10 @@ WeChatRedEnvelop.dylib (architecture arm64):
 # 因为 optool 添加了 submodule，因为需要使用 --recuresive 选项，将子模块全部 clone 下来
 $ git clone --recursive https://github.com/alexzielenski/optool.git
 $ cd optool
-$ xcodebuild -project optool.xcodeproj -configuration Release ARCHS="i386 x86_64" build
+$ xcodebuild -project optool.xcodeproj -configuration Release ARCHS="x86_64" build
 ```
+
+> 如果碰到类似 “error: There is no SDK with the name or path '/path/to/optool/macosx10.9'” 的错误，请使用 Xcode 打开工程，在 Build Setting 中选择正确的 SDK 版本。
 
 将砸壳过的 ipa 文件解压，然后将 libsubstrate.dylib 与 WeChatRedEnvelop.dylib 拷贝到解压后的 WeChat.app 目录下。
 
