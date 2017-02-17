@@ -23,9 +23,9 @@ MemoryLayout<Int16>.size	// return 2
 MemoryLayout<Int16>.alignment	// return 2
 MemoryLayout<Int16>.stride	// return 2
 
-MemoryLayout<Bool>.size		// return 2
-MemoryLayout<Bool>.alignment	// return 2
-MemoryLayout<Bool>.stride	// return 2
+MemoryLayout<Bool>.size		// return 1
+MemoryLayout<Bool>.alignment	// return 1
+MemoryLayout<Bool>.stride	// return 1
 
 MemoryLayout<Float>.size	// return 4
 MemoryLayout<Float>.size	// return 4
