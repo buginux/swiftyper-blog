@@ -1,5 +1,5 @@
 ---
-title: 印象笔记 Python SDK 的 Token 认证问题
+title: 印象笔记 Python SDK 踩坑记
 date: 2017-02-18 12:23:14
 tags: [Memo, Alfred]
 ---
