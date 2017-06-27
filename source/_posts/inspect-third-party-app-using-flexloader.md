@@ -41,7 +41,7 @@ PreferenceLoader 是一个 MobileSubstrate 提供的工具，它可以让开发�
 
 以下是参考 RevealLoader 并进行修改后的 `plist` 文件内容：
 
-```json
+```
 entry = {
   bundle = AppList;
   cell = PSLinkCell;
