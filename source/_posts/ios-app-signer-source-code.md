@@ -4,13 +4,13 @@ date: 2017-06-27 20:29:35
 tags: [逆向, 源码]
 ---
 
-在之前的制作[非越狱抢红包插件](http://swiftyper.com/2016/12/26/wechat-redenvelop-tweak-for-non-jailbroken-iphone/)文章中，我们曾经使用过 [ios-app-signer](https://github.com/buginux/ios-app-signer) 对微信进行过重签名。`ios-app-signer` 提供了简单易用的图形界面来帮助我们进行重签名，但是我们今天要透过它的图形界面，深入到源码中学习下 iOS 应用重签名的原理。
+在之前的制作[非越狱抢红包插件](http://swiftyper.com/2016/12/26/wechat-redenvelop-tweak-for-non-jailbroken-iphone/)文章中，我们曾经使用过 [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer) 对微信进行过重签名。`ios-app-signer` 提供了简单易用的图形界面来帮助我们进行重签名，但是我们今天要透过它的图形界面，深入到源码中学习下 iOS 应用重签名的原理。
 
 <!-- more -->
 
-首先，从 `ios-app-signer` 的 [Github 仓库](https://github.com/buginux/ios-app-signer)上将其 `clone` 下来。
+首先，从 `ios-app-signer` 的 [Github 仓库](https://github.com/DanTheMan827/ios-app-signer) 上将其 `clone` 下来。
 
-> 我自己 fork 了一份源码，并为其添加了一些中文注释，你也可以直接 clone [我的这份源码]()。
+> 我自己 fork 了一份源码，并为其添加了一些中文注释，你也可以直接 clone [我的这份源码](https://github.com/buginux/ios-app-signer)。
 
 打开项目后会发现，里面的源文件不少，不过重签名的主要逻辑全都在 `MainView.swift` ，所以我们只需要阅读这个文件就可以了。
 
