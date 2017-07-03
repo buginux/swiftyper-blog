@@ -34,13 +34,13 @@ tags: [逆向, Xcode, lldb]
 </dict>
 ```
 
-这个字段就是决定我们能不能对应用进行断点调试的关键，关于这个字段的解释是这样的，我从 [StackOverflow](https://stackoverflow.com/questions/1003066/what-does-get-task-allow-do-in-xcode) 上找到的解释是这样的：
+这个字段就是决定我们能不能对应用进行断点调试的关键，我从 [StackOverflow](https://stackoverflow.com/questions/1003066/what-does-get-task-allow-do-in-xcode) 上找到的解释是这样的：
 
 > get-task-allow, when signed into an application, allows other processes (like the debugger) to attach to your app. Distribution profiles require that this value be turned off, while development profiles require this value to be turned on (otherwise Xcode would never be able to launch and attach to your app).
 
 对于我们自己写的应用，我们当然是可以调试的，所以这个字段是存在的。而对于第三方应用，这个字段已经被关闭了，因此我们也就无法使用 Xcode 对其进行断点调试。
 
-所以，现在的问题变成了，如果为应用程序增加 `get-task-allow` 权限。
+所以，现在的问题变成了，如何为应用程序增加 `get-task-allow` 权限。
 
 ## 越狱设备
 
