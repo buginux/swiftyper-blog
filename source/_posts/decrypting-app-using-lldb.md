@@ -158,7 +158,7 @@ osx$ dd seek=21348352 bs=1 conv=notrunc if=./decrypted.bin of=./LuoJiFM-IOS
 
 最后，为了让可执行文件适用于某些应用（如 class-dump-z），我们需要将 `cryptid` 字段手动置为 0。这一步可以通过 MachOView 来完成。
 
-![](/images/14991741609513.jpg)
+![](http://7xqonv.com1.z0.glb.clouddn.com/decrypting-app-using-lldb-pic-1.jpg)
 
 
 将上面的 `Cyrpt ID` 改成 0，并保存即可。
