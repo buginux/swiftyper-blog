@@ -23,9 +23,12 @@ tags: [软件开发者成长完全攻略, Translate]
 ## 索引
 
 [第0章《软件开发者成长完全攻略》开篇](http://www.swiftyper.com/2017/01/23/complete-software-developers-career-guide-introduction/)
+[第1章 软件开发如何入门](http://swiftyper.com/2017/07/31/get-started-software-development/)
 
 ## 赞赏
 
 如果你觉得这本书有对你提供了任何意义上的帮助，就请作者喝杯 koi 吧。
 
 ![WeChat Pay](http://7xqonv.com1.z0.glb.clouddn.com/wechatpaying.png)
+
+
