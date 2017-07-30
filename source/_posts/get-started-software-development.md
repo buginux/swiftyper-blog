@@ -1,8 +1,11 @@
 ---
-title: 第一章：软件开发如何入门
-date: 2017-07-30 09:15:18
-tags: [软件开发者成长完全攻略, Translate]
+title: 软件开发如何入门
+tags:
+  - 软件开发者成长完全攻略
+  - Translate
+date: 2017-07-31 09:15:18
 ---
+
 
 > 本篇博客是[《软件开发者成长完全攻略》](http://www.swiftyper.com/2017/01/21/complete-software-developers-career-guide-index/)系列翻译文章第 1 章。
 原文地址：[How to Get Started in Software Development](https://simpleprogrammer.com/2016/07/11/get-started-software-development/)
@@ -17,7 +20,7 @@ tags: [软件开发者成长完全攻略, Translate]
 
 让我来彻底澄清一件事：你不需要是一个天才，甚至智力水平不需要超过平均水平，也能成为一个软件开发者。
 
-<
+<!-- more -->
 
 对于一个刚刚进入软件开发大门的初学者，如果你没有[觉得茫然](https://simpleprogrammer.com/2014/06/23/dont-overwhelm-trying-learn-much/)，并感觉自己像是被在脚踝上绑着重物丢进池底的话，你可能是哪里做错了，也可能你压根就不是一个普通人——或者二者皆是。
 
