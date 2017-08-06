@@ -3,16 +3,20 @@ title: 程序员需要掌握的技术
 tags:
   - 软件开发者成长完全攻略
   - Translate
+date: 2017-08-06 17:59:03
 ---
+
 
 > 本篇博客是[《软件开发者成长完全攻略》](http://www.swiftyper.com/2017/01/21/complete-software-developers-career-guide-index/)系列翻译文章第 2 章。
 原文地址：[The Technical Skills You Need to Have as a Software Developer](https://simpleprogrammer.com/2016/07/18/technical-skills-software-developer/)
 
-我更倾向于帮助程序员学习“软技能”而非开发技术 —— 事实上，[我写一整本关于软技能的书]  (http://amzn.to/2s4TRci) —— 但是毫无疑问的，对于开发者来说，技术很重要！
+我更倾向于帮助程序员学习“软技能”而非开发技术 —— 事实上，[我写过一整本关于软技能的书](http://amzn.to/2s4TRci) —— 但是毫无疑问的，对于开发者来说，技术很重要！
 
 我的意思是，如果你没有掌握代码和开发技术，所有的软技能对你来说都不会有实质上的帮助。或许你可以成为一个好的管理者或者教练，但不会是一个好的软件开发者。
 
 既然你正在阅读这本书的这一小节，我可以假定你就是想成为软件开发者 —— 或者是优秀的软件开发者 —— 那就让我们讨论下你所需要掌握的技术。
+
+<!-- more -->
 
 ## 值得学习的技术
 
