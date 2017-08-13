@@ -25,6 +25,7 @@ tags: [软件开发者成长完全攻略, Translate]
 [第0章《软件开发者成长完全攻略》开篇](http://www.swiftyper.com/2017/01/23/complete-software-developers-career-guide-introduction/)
 [第1章 软件开发如何入门](http://swiftyper.com/2017/07/31/get-started-software-development/)
 [第2章 程序员需要掌握的技术](http://swiftyper.com/2017/08/06/technical-skills-software-developer/)
+[第3章 如何学习软件开发技术](http://swiftyper.com/2017/08/13/develop-technical-skills/)
 
 ## 赞赏
 
