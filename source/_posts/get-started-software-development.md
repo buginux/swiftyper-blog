@@ -302,4 +302,10 @@ date: 2017-07-31 09:15:18
 
 在下一章中，我会帮助你进一步改进计划，我们会讨论成为一个软件开发工程师所需要掌握的技术。
 
+## 关注
+
+如果你喜欢这篇文章，可以关注我的公众号，随时获取我最新的博客文章。
+
+![qrcode_for_gh_6e8bddcdfca3_430.jpg](http://upload-images.jianshu.io/upload_images/650096-9155581b667f64b5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 

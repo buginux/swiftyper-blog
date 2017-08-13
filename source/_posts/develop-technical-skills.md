@@ -1,9 +1,11 @@
 ---
 title: 如何学习软件开发技术
-tags:  
+tags:
   - 软件开发者成长完全攻略
   - Translate
+date: 2017-08-13 21:00:35
 ---
+
 
 > 本篇博客是[《软件开发者成长完全攻略》](http://www.swiftyper.com/2017/01/21/complete-software-developers-career-guide-index/)系列翻译文章第 3 章。
 原文地址：[How To Develop Technical Skills](https://simpleprogrammer.com/2016/07/25/develop-technical-skills/)
@@ -13,6 +15,8 @@ tags:
 既然你提到了时间，那么我告诉你，你将会花跟你当程序员一样长的时间来学习这些技术。你应该将学习视为一段旅程，而非终点。你永远可以变得更好 —— 只要你愿意的话。
 
 [之前我在技术学习上用了错误的方法，因此浪费了大量的时间](https://simpleprogrammer.com/lp/5-learning-mistakes-1/)。但是，我在给 Pluralsight 录制超过 50 套在线技术课程的三年里，学会了如何快速学习一门开发技术，同时将它教给别人。
+
+<!-- more -->
 
 我曾经以为，学习开发技术的最好方法就是抱着一本厚厚的参考手册，然后从头开始一页一页地读它。那时候，我读了很多超过 800 页的大部头，然而我的开发技术并没有在这过程中有很大的进步。倒是我的手臂有可能因为总是携带这么重的书而变得更加强壮。
 
@@ -213,6 +217,12 @@ tags:
 只要你制订了一个可靠的计划，以及一个清晰的目标，并且投入你的时间，技术会自然而然来到你手上的。
 
 你所要做的就是坚持下去，并且[相信这个过程](https://simpleprogrammer.com/2015/09/28/trust-the-process/)。
+
+## 关注
+
+如果你喜欢这篇文章，可以关注我的公众号，随时获取我最新的博客文章。
+
+![qrcode_for_gh_6e8bddcdfca3_430.jpg](http://upload-images.jianshu.io/upload_images/650096-9155581b667f64b5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
