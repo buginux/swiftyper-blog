@@ -26,15 +26,15 @@ tags: [kindle]
 
 登录[亚马逊官网](https://www.amazon.cn)，从右上角“我的帐户”中选择“管理我的内容和设备”。
 
-![屏幕快照_2017-10-08_下午12_11_30](media/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7_2017-10-08_%E4%B8%8B%E5%8D%8812_11_30.png)
+![屏幕快照_2017-10-08_下午12_11_30](http://7xqonv.com1.z0.glb.clouddn.com/remove-kindle-drm-protection-pic-1.png)
 
 然后，从当中选择你想下载的书籍，点击“操作”中的“...”按钮，选择“通过电脑下载USB传输”。
 
-![Amazon_cn：管理我的内容和设备](media/Amazon_cn%EF%BC%9A%E7%AE%A1%E7%90%86%E6%88%91%E7%9A%84%E5%86%85%E5%AE%B9%E5%92%8C%E8%AE%BE%E5%A4%87-1.png)
+![Amazon_cn：管理我的内容和设备](http://7xqonv.com1.z0.glb.clouddn.com/remove-kindle-drm-protection-pic-2.png)
 
 然后，在弹窗中，选择点击“下载”，即可将电子书保存到本地。
 
-![Amazon_cn：管理我的内容和设备](media/Amazon_cn%EF%BC%9A%E7%AE%A1%E7%90%86%E6%88%91%E7%9A%84%E5%86%85%E5%AE%B9%E5%92%8C%E8%AE%BE%E5%A4%87-2.png)
+![Amazon_cn：管理我的内容和设备](http://7xqonv.com1.z0.glb.clouddn.com/remove-kindle-drm-protection-pic-3.png)
 
 ### 二、使用 Kindle 桌面端进行下载
 
@@ -48,7 +48,7 @@ Kindle for Mac 的电子书存放路径为：`/Users/你的用户名/Library/App
 
 > 使用这种方法，电子书的命名由应用自行生成，类似 `B00FF3JVAC_EBOK.azw`，识别起来比较麻烦。
 
-![屏幕快照 2017-10-08 下午12.28.18](media/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-10-08%20%E4%B8%8B%E5%8D%8812.28.18.png)
+![屏幕快照 2017-10-08 下午12.28.18](http://7xqonv.com1.z0.glb.clouddn.com/remove-kindle-drm-protection-pic-4.png)
 
 ### 三、直接从 Kindle 设备中进行拷贝
 
@@ -86,7 +86,7 @@ Calibre 是支持插件的，并且它还有一个插件仓库用于方便安装
 
 除了使用 Calibre 插件之外，DeDRM 还提供 Mac 及 Windows 的应用，我们也可以直接使用它们进行 DRM 的破解。
 
-![DeDRM_Macintosh_Application_和_remove-kindle-drm-protection_md](media/DeDRM_Macintosh_Application_%E5%92%8C_remove-kindle-drm-protection_md.png)
+![DeDRM Application](http://7xqonv.com1.z0.glb.clouddn.com/remove-kindle-drm-protection-pic-5.png)
 
 不过，这两个应用都需要使用到 Kindle 设备序列号，序列号可以直接在设备中的系统信息中找到。不同版本的 Kindle 位置不一样，但是基本上都是在“设置“中找到”设备信息“进行查看。
 
