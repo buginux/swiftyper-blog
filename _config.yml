@@ -70,7 +70,7 @@ theme: even
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@107.170.220.127:/var/repo/blog.git
+  repo: git@149.129.97.28:/var/repo/blog.git
   branch: master
 
 # Generator-archive
